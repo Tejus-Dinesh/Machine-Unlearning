@@ -1,6 +1,6 @@
 # Machine-Unlearning
 
-![Unlearning]("media/Logo.png")
+![Unlearning]("/media/Logo.png")
 
 **Intro**
 Machine Unlearning is the process of removing data from a pre-trained model so as to stop it from giving out information related to the data. It can be used to remove biases, harmful content, etc. These techniques are being explored at large by many organisations to make LLMs safer, ethical and moral. We provide 3 different methods to perform unlearning or the illusion of Unlearning which include:
