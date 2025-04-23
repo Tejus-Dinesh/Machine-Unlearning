@@ -24,16 +24,18 @@ For retain dataset we use wikitext (huggingface version) [Link](https://huggingf
 
 **Files**
 
-```SAE Unlearning Llama3 8b IT.ipynb``` - Contains The code for sparse autoencoder implementation of unlearning.
-```Unlearning Llama 3 8b IT.ipynb``` - Contains the code for PEFT LoRA finetuning for Unlearning.
+```SAE Unlearning Llama3 8b IT.ipynb``` - Contains The code for sparse autoencoder implementation of unlearning. <br>
+```Unlearning Llama 3 8b IT.ipynb``` - Contains the code for PEFT LoRA finetuning for Unlearning.<br>
+```Guardrailing_Llama3_8b_IT.ipynb``` - Contains the code for guardrailing Llama3-8b-Instruct using llama3 guard. <br>
 
 ```data/harry_potter_keywords.txt``` - Contains a big set of words that we use as context to forget in SAE, LoRA and Guardrailing.
 ```data/harry_potter_dataset.txt``` - Contains all the 7 books of Harry Potter used for PEFT finetuning for forget dataset.
 ```data/hp_perp``` - Contains 1000 samples for computing perplexity on Harry Potter data.
+```data/wiki2_perp``` - Contains wikitext data for computing perplexity for Non-Harry Potter data.
 
-**presentation and report links**
-Presentation: 
+**presentation**
 
-Report:
+
 
 **Conclusion**
+We conclude that PEFT is the best method in our comparison given our constraints, to forget sensitive data. It gives blank lines for questions revolving around Harry Potter and answers the other questions well. SAE is a more interpretable method and is a new area of research and has a lot of promise, but for our relatively smaller model size, it does sometimes give out information about the HP universe (though it mostly gets ablated). Guardrailing is a good idea and is technically not unlearning but is easily breakable using jailbreaking and is not fail safe and also uses extra context tokens (due to system prompting).
