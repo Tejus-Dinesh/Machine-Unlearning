@@ -24,8 +24,12 @@ For retain dataset we use wikitext (huggingface version) [Link](https://huggingf
 
 **Files**
 
-```SAE Unlearning Llama3 8b IT.ipynb``` - Contains The code for sparse autoencoder implementation of unlearning
+```SAE Unlearning Llama3 8b IT.ipynb``` - Contains The code for sparse autoencoder implementation of unlearning.
+```Unlearning Llama 3 8b IT.ipynb``` - Contains the code for PEFT LoRA finetuning for Unlearning.
 
+```data/harry_potter_keywords.txt``` - Contains a big set of words that we use as context to forget in SAE, LoRA and Guardrailing.
+```data/harry_potter_dataset.txt``` - Contains all the 7 books of Harry Potter used for PEFT finetuning for forget dataset.
+```data/hp_perp``` - Contains 1000 samples for computing perplexity on Harry Potter data.
 
 **presentation and report links**
 Presentation: 
