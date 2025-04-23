@@ -38,4 +38,5 @@ For retain dataset we use wikitext (huggingface version) [Link](https://huggingf
 [![Watch the presentation](media/vid.png)](https://youtu.be/TJTNndfGlSM)
 
 **Conclusion**
+
 We conclude that PEFT is the best method in our comparison given our constraints, to forget sensitive data. It gives blank lines for questions revolving around Harry Potter and answers the other questions well. SAE is a more interpretable method and is a new area of research and has a lot of promise, but for our relatively smaller model size, it does sometimes give out information about the HP universe (though it mostly gets ablated). Guardrailing is a good idea and is technically not unlearning but is easily breakable using jailbreaking and is not fail safe and also uses extra context tokens (due to system prompting).
