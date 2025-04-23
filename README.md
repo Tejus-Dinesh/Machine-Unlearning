@@ -1,3 +1,5 @@
+**Note** The jupyter notebooks need to be downloaded to view since GitHub has issues rendering the ipython notebook.
+
 # Machine-Unlearning
 
 ![Logo](media/Logo.png)
