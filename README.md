@@ -1,4 +1,4 @@
-**Note** The jupyter notebooks need to be downloaded to view since GitHub has issues rendering the ipython notebook.
+**Note** The jupyter notebooks need to be downloaded to view since GitHub has issues rendering the ipython notebook. PDF versions of the notebook available in the ```code_pdfs``` folder.
 
 # Machine-Unlearning
 
